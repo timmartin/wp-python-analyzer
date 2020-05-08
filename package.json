@@ -1,0 +1,19 @@
+{
+  "name": "wp-python-analyzer",
+  "version": "0.0.1",
+  "description": "Wordpress plugin to embed Python analyzer blocks",
+  "main": "index.js",
+  "author": "Tim Martin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.9.6",
+    "@timmartin2/python-code-analyzer": "0.0.2"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^8.0.1"
+  },
+  "scripts": {
+    "build": "wp-scripts build"
+  }
+}
