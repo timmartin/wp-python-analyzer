@@ -15,24 +15,29 @@ function python_analyzer_register_block() {
   $asset_file = include( plugin_dir_path( __FILE__ ) . 'build/index.asset.php');
 
   wp_register_script(
-      'wp-analyzer-script',
-      plugins_url( 'build/index.js', __FILE__ ),
-      $asset_file['dependencies'],
-      $asset_file['version']
+    'wp-python-analyzer-script',
+    plugins_url( 'build/index.js', __FILE__ ),
+    $asset_file['dependencies'],
+    $asset_file['version']
   );
 
   register_block_type(
-    'myguten/test-block',
+    'wp-python-analyzer/tokenizer',
     array(
-      'editor_script' => 'wp-analyzer-script'
+      'editor_script' => 'wp-python-analyzer-script'
     )
   );
 }
 
 function python_analyzer_front_end_scripts() {
   wp_enqueue_script(
-      'wp-analyzer-script',
-      plugins_url( 'build/index.js', __FILE__ ),
+    'wp-python-analyzer-script',
+    plugins_url( 'build/index.js', __FILE__ ),
+  );
+
+  wp_enqueue_style(
+    'wp-python-analyzer-styles',
+    plugins_url('build/index.css', __FILE__),
   );
 }
 

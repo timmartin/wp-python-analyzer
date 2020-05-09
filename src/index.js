@@ -2,6 +2,7 @@ import { registerBlockType } from '@wordpress/blocks';
 import domReady from '@wordpress/dom-ready';
 
 import {Tokenizer} from "@timmartin2/python-code-analyzer";
+import "@timmartin2/python-code-analyzer/lib/main.css";
 
 registerBlockType('wp-python-analyzer/tokenizer', {
   title: 'Python interactive tokenizer',
