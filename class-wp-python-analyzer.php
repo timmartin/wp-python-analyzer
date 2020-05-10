@@ -2,7 +2,7 @@
 /*
  * Plugin name: Python code analyzer
  * Description: Embed wigets for live analysis of Python code
- * Version: 0.0.1
+ * Version: 0.0.2
  */
 
 function python_analyzer_render_block($attributes, $content) {
