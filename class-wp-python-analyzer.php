@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin name: Python code analyzer
- * Description: Embed wigets for live analysis of Python code
+ * Description: Embed widgets for live analysis of Python code
  * Version: 0.0.2
  */
 
