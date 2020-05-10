@@ -32,12 +32,12 @@ function python_analyzer_register_block() {
 function python_analyzer_front_end_scripts() {
   wp_enqueue_script(
     'wp-python-analyzer-script',
-    plugins_url( 'build/index.js', __FILE__ ),
+    plugins_url( 'build/index.js', __FILE__ )
   );
 
   wp_enqueue_style(
     'wp-python-analyzer-styles',
-    plugins_url('build/index.css', __FILE__),
+    plugins_url('build/index.css', __FILE__)
   );
 }
 
