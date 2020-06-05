@@ -3,9 +3,9 @@
   "version": "0.0.3",
   "description": "Wordpress plugin to embed Python analyzer blocks",
   "main": "index.js",
-  "author": "Tim Martin",
+  "author": "Tim Martin <tim@asymptotic.co.uk>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "@timmartin2/python-code-analyzer": "^0.0.6"
