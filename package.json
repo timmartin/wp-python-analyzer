@@ -1,6 +1,6 @@
 {
   "name": "wp-python-analyzer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wordpress plugin to embed Python analyzer blocks",
   "main": "index.js",
   "author": "Tim Martin <tim@asymptotic.co.uk>",
