@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import { registerBlockType } from '@wordpress/blocks';
 import domReady from '@wordpress/dom-ready';
 
