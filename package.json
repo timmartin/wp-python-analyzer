@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.9.6",
-    "@timmartin2/python-code-analyzer": "^0.0.4"
+    "@timmartin2/python-code-analyzer": "^0.0.6"
   },
   "devDependencies": {
     "@wordpress/scripts": "^8.0.1",
