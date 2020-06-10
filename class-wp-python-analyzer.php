@@ -2,7 +2,7 @@
 /*
  * Plugin name: Python code analyzer
  * Description: Embed widgets for live analysis of Python code
- * Version: 0.0.3
+ * Version: 0.0.4
  */
 
 function python_analyzer_register_block() {
@@ -19,6 +19,13 @@ function python_analyzer_register_block() {
 
   register_block_type(
     'wp-python-analyzer/tokenizer',
+    array(
+      'editor_script' => 'wp-python-analyzer-script'
+    )
+  );
+
+  register_block_type(
+    'wp-python-analyzer/parse-tree',
     array(
       'editor_script' => 'wp-python-analyzer-script'
     )
