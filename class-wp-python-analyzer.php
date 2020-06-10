@@ -5,10 +5,6 @@
  * Version: 0.0.3
  */
 
-function python_analyzer_render_block($attributes, $content) {
-  return '<div class="monkey_pie">small happy hamster</div>';
-}
-
 function python_analyzer_register_block() {
 
   // automatically load dependencies and version
