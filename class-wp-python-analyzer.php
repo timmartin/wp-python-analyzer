@@ -2,7 +2,7 @@
 /*
  * Plugin name: Python code analyzer
  * Description: Embed widgets for live analysis of Python code
- * Version: 0.0.4
+ * Version: 0.0.5
  */
 
 function python_analyzer_register_block() {
