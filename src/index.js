@@ -75,6 +75,6 @@ domReady( () => {
 		ReactDOM.render(
 			<ParseTree code={ parseTree.textContent } />,
 			parseTree
-		)
+		);
 	}
 } );
