@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@babel/runtime": "^7.10.2",
+    "@babel/runtime": "^7.12.1",
     "@timmartin2/python-code-analyzer": "^0.0.9"
   },
   "devDependencies": {
